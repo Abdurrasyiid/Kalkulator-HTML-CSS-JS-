@@ -1,2 +1,8 @@
-# Kalkulator-HTML-CSS-JS
+# Kalkulator
+
+Komponen :
+
+1. HTML
+2.CSS
+3. Javascript
 
