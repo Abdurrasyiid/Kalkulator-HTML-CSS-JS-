@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Quicksand',sans-serif;
+  margin: 0;
+padding: 0;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+
+}
+
+.container{
+  width: 200px;
+  height: 190px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.flexkolom{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flexrow{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.layar{
+  flex-basis: 100%;
+  background-color: black;
+  text-align: right;
+  padding: 10px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.tombol{
+  flex-basis: 25%;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  height: 30px;
+  font-size: 15px;
+  color: black;
+  border-right:1px solid black;
+  border-top:1px solid black;
+}
+
+.equals{flex-basis: 50%;}
+.bawah{border-bottom: 1px solid black;}
+.kiri{border-left: 1px solid black;}
+.operator,.equals{
+  background-color: gold;
+}
+
+
+.tombol:hover{
+  font-weight: bold;
+  cursor:pointer;
+  font-size: 17px;
+}
